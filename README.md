@@ -6,25 +6,13 @@ We'll follow tradition in this assignment and write the Hello World program in J
 
 ## Step 1: Install Node.js
 
-#### On MacOS
+First things first, we need to install Node. The best way to do this is to first install NVM (Node Version Manager). This is a command line utility that lets you easily manage and change your Node version, which is something you'll likely need to do at some point due to compatability restraints with external libraries.
 
-**Install Homebrew**
+Go ahead and install NVM. You can view the installation instructions here: https://github.com/nvm-sh/nvm
 
-On MacOS, first install Homebrew which is a package manager for command line programs. To do this, go to https://brew.sh/ and paste the command under 'Install Homebrew' into your command line.
+Once you're done installing, you can verify that the installation worked by restarting your command line, then entering the command `nvm --version`. If a version code is printed out, NVM has been installed successfully.
 
-**Use Homebrew to install Node.js**
-
-Now that Homebrew is installed, type `brew install node` to install Node.js
-
-#### On Windows with WSL2 (or Linux)
-
-WSL2 is just Linux really which (assuming you're on Ubuntu or Debian) has a package manager installed by default (`apt`) that we can use to install Node.
-
-Simply run, `sudo apt instsall nodejs npm`
-
-#### On Windows with Git Bash
-
-Sadly, there is no available package manager for Git Bash on Windows. The good news is you can still install Node. Go [here](https://nodejs.org/en/download/), then download and run the Windows installer.
+Finally, now that you have NVM, install the latest stable version of Node.js. You can do this by running `nvm install stable`.
 
 ## Step 2: Writing Hello World
 
